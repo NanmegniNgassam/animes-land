@@ -46,7 +46,7 @@ Animes-land est un micro-projet conçu pour visualiser des animés populaires, e
 
 - Maîtrise de la **data fetching strategy** (ISR, SSR, SSG)
 - Utilisation d'une **API REST tierce** (fetch, erreurs, pagination)
-- Mise en place de **routes dynamiques** (`/anime/[id]`)
+- Mise en place de **routes dynamiques** (`/animes/[id]`)
 - Amélioration de l'**expérience utilisateur** (UX / UI / SEO)
 - Travail en **mobile-first** et responsive design
 
