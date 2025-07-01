@@ -1,36 +1,80 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# 🌸 Animes Land
 
-## Getting Started
+> Une plateforme minimaliste pour explorer l'univers des animés — propulsée par Next.js et l'API Jikan.
 
-First, run the development server:
+Animes-land est un micro-projet conçu pour visualiser des animés populaires, explorer leurs détails, et rechercher ses séries favorites. Il a pour objectif de consolider mes compétences en **Next.js**, en particulier autour de la **récupération de données**, la **navigation dynamique**, et les **bonnes pratiques de développement frontend moderne**.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Demo
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+👉 [Lien vers le site déployé](https://animes-land.gilles-ngassam.com)
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+---
 
-## Learn More
+## ✨ Fonctionnalités principales
 
-To learn more about Next.js, take a look at the following resources:
+- 🎥 Affichage des animés les plus populaires
+- 🔎 Recherche en direct d’un animé par nom
+- 📊 Classement des animés par score (Top 100)
+- 📄 Fiches détaillées : synopsis, personnages, infos clés
+- 🧭 Navigation rapide et responsive
+- 🧠 Architecture pensée pour la performance (ISR/SSR)
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## 🛠️ Stack technique
 
-## Deploy on Vercel
+- **Framework** : [Next.js 13+ (App Router)](https://nextjs.org/)
+- **Langage** : TypeScript
+- **Style** :CSS
+- **API** : [Jikan API v4](https://docs.api.jikan.moe/)
+- **Déploiement** : Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+## 📁 Structure des pages
+
+| Page | URL | Description |
+|------|-----|-------------|
+| Accueil | `/` | Animés populaires du moment |
+| Animés | `/animes` | Visualisation des animés |
+| Détail animé | `/animes/[id]` | Détails complets d’un animé |
+| Recherche | `/search` | Recherche en live |
+| Top animés | `/top` | Classement par score |
+| À propos | `/about` | Présentation du projet et de l’API |
+
+---
+
+## 📚 Objectifs pédagogiques
+
+- Maîtrise de la **data fetching strategy** (ISR, SSR, SSG)
+- Utilisation d'une **API REST tierce** (fetch, erreurs, pagination)
+- Mise en place de **routes dynamiques** (`/anime/[id]`)
+- Amélioration de l'**expérience utilisateur** (UX / UI / SEO)
+- Travail en **mobile-first** et responsive design
+
+---
+
+## 🧪 Fonctionnalités prévues (roadmap)
+
+- [ ] Dark mode toggle
+- [ ] Skeleton loaders pour les pages lentes
+- [ ] Mise en cache API avec SWR
+- [ ] Page personnages (bonus)
+
+---
+
+## 🙏 Remerciements
+
+Un grand merci à [Jikan API](https://docs.api.jikan.moe/) pour fournir une interface ouverte et gratuite vers la base de données MyAnimeList.
+
+---
+
+## 📜 Licence
+
+Ce projet est open-source sous licence [MIT](LICENSE).
+
+---
+
+> Développé avec ❤️ pour apprendre et partager — par [Gilles NGASSAM].
