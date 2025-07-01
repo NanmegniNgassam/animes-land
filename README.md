@@ -4,13 +4,12 @@
 
 Animes-land est un micro-projet conçu pour visualiser des animés populaires, explorer leurs détails, et rechercher ses séries favorites. Il a pour objectif de consolider mes compétences en **Next.js**, en particulier autour de la **récupération de données**, la **navigation dynamique**, et les **bonnes pratiques de développement frontend moderne**.
 
----
+
 
 ## 🚀 Demo
 
 👉 [Lien vers le site déployé](https://animes-land.gilles-ngassam.com)
 
----
 
 ## ✨ Fonctionnalités principales
 
@@ -21,7 +20,6 @@ Animes-land est un micro-projet conçu pour visualiser des animés populaires, e
 - 🧭 Navigation rapide et responsive
 - 🧠 Architecture pensée pour la performance (ISR/SSR)
 
----
 
 ## 🛠️ Stack technique
 
@@ -31,7 +29,6 @@ Animes-land est un micro-projet conçu pour visualiser des animés populaires, e
 - **API** : [Jikan API v4](https://docs.api.jikan.moe/)
 - **Déploiement** : Vercel
 
----
 
 ## 📁 Structure des pages
 
@@ -44,7 +41,6 @@ Animes-land est un micro-projet conçu pour visualiser des animés populaires, e
 | Top animés | `/top` | Classement par score |
 | À propos | `/about` | Présentation du projet et de l’API |
 
----
 
 ## 📚 Objectifs pédagogiques
 
@@ -54,7 +50,6 @@ Animes-land est un micro-projet conçu pour visualiser des animés populaires, e
 - Amélioration de l'**expérience utilisateur** (UX / UI / SEO)
 - Travail en **mobile-first** et responsive design
 
----
 
 ## 🧪 Fonctionnalités prévues (roadmap)
 
@@ -63,18 +58,16 @@ Animes-land est un micro-projet conçu pour visualiser des animés populaires, e
 - [ ] Mise en cache API avec SWR
 - [ ] Page personnages (bonus)
 
----
 
 ## 🙏 Remerciements
 
 Un grand merci à [Jikan API](https://docs.api.jikan.moe/) pour fournir une interface ouverte et gratuite vers la base de données MyAnimeList.
 
----
 
 ## 📜 Licence
 
 Ce projet est open-source sous licence [MIT](LICENSE).
 
----
+
 
 > Développé avec ❤️ pour apprendre et partager — par [Gilles NGASSAM].
