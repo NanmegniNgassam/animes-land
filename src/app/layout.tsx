@@ -6,8 +6,10 @@ const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
   title: 'Animes-land',
-  description: 'Micro-projet conçu pour visualiser des animés populaires, explorer leurs détails, et rechercher ses séries favorites. Il a pour objectif de consolider mes compétences en Next.js, en particulier autour de la récupération de données, la navigation dynamique, et les bonnes pratiques de développement frontend moderne.',
-  keywords: ['animes']
+  description: 'A micro-project designed to view popular anime, explore their details, and search for your favorite series. Its goal is to strengthen my skills in Next.js, particularly around data fetching, dynamic navigation, and best practices in modern frontend development.',
+  keywords: [
+    "anime hub", "anime explorer", "anime list app", "top anime ranking", "discover anime", "anime database viewer", "nextjs anime project", "anime detail page", "search anime online", "jikan api frontend", "myanimelist viewer", "anime frontend project", "learn nextjs with anime", "anime UI app", "anime browser", "trending anime 2025"
+  ]
 }
 
 export default function RootLayout({
