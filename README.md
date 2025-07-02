@@ -37,7 +37,7 @@ Animes-land est un micro-projet conçu pour visualiser des animés populaires, e
 | Accueil | `/` | Animés populaires du moment |
 | Animés | `/animes` | Visualisation des animés |
 | Détail animé | `/animes/[id]` | Détails complets d’un animé |
-| Recherche | `/search` | Recherche en live |
+| Recherche | `/animes/search` | Recherche en live |
 | Top animés | `/top` | Classement par score |
 | À propos | `/about` | Présentation du projet et de l’API |
 
