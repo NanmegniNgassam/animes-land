@@ -21,6 +21,10 @@ a {
   text-decoration: none;
 }
 
+main {
+  padding: 0 40px;
+}
+
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;

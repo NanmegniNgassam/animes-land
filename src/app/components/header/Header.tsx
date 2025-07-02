@@ -1,5 +1,5 @@
 import Image from "next/image";
-import logo from '../assets/animes-land_logo.png'
+import logo from '../../assets/animes-land_logo.png'
 import Link from "next/link";
 import styles from './header.module.css'
 
