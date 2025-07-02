@@ -1,10 +1,11 @@
 import Image from "next/image";
 import logo from '../assets/animes-land_logo.png'
 import Link from "next/link";
+import styles from './header.module.css'
 
 const Header = () => {
   return (
-    <nav>
+    <nav className={styles.headerContainer}>
       <Link href="/">
         <Image  src={logo} alt="Community banner and clan emblem" quality={80} width={100} placeholder="blur" />
       </Link>
