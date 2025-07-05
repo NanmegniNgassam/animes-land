@@ -2,7 +2,7 @@ import Image from "next/image";
 import logo from '../../assets/animes-land_logo.png'
 import Link from "next/link";
 import styles from './header.module.css'
-import { ArrowTrendingUpIcon, AtSymbolIcon, HomeIcon } from "@heroicons/react/24/outline";
+import { ArrowTrendingUpIcon, AtSymbolIcon, HomeIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 
 const Header = () => {
@@ -28,6 +28,12 @@ const Header = () => {
           <Link href="/top">
             <ArrowTrendingUpIcon width={24} />
             <span>Top animes</span>
+          </Link>
+        </li>
+        <li>
+          <Link href="/search">
+            <MagnifyingGlassIcon width={24} />
+            <span>Search</span>
           </Link>
         </li>
         <li>
