@@ -1,9 +1,10 @@
 .footerContainer {
   display: flex;
   flex-direction: column;
-  gap: 20px;
+  gap: 40px;
   padding: 20px 40px;
   background-color: brown;
+  color: white;
 }
 
 .footerContainer .linksWrapper {
@@ -16,6 +17,20 @@
 .linksWrapper a {
   display: flex;
   align-items: center;
-  color: white;
   gap: 4px;
+}
+
+.referencesWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.referencesWrapper .btn {
+  outline: none;
+  padding: 10px 40px;
+  cursor: pointer;
+  background-color: white;
+  color: brown;
+  font-weight: 600;
 }
