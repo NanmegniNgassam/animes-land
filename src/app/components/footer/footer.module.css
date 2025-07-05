@@ -62,3 +62,15 @@
   gap: 3px;
   justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  .footerContainer {
+    padding: 44px 20px;
+  }
+  .footerContainer::before {
+    width: 40%;
+  }
+  .footerContainer::after {
+    width: 40%;
+  }
+}

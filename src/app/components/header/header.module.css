@@ -35,3 +35,12 @@
   align-items: center;
   gap: 4px;
 }
+
+@media screen and (max-width: 600px) {
+  .headerContainer {
+    padding: 10px 20px;
+  }
+  .headerContainer::after {
+    width: 40%;
+  }
+}

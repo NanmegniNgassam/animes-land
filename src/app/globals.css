@@ -37,4 +37,8 @@ main {
   html {
     color-scheme: dark;
   }
+
+  main {
+    padding: 0 20px;
+  }
 }
