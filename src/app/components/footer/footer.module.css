@@ -1,0 +1,21 @@
+.footerContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 40px;
+  background-color: brown;
+}
+
+.footerContainer .linksWrapper {
+  display: flex;
+  list-style-type: none;
+  gap: 120px;
+  width: fit-content;
+  margin: 0 auto;
+}
+.linksWrapper a {
+  display: flex;
+  align-items: center;
+  color: white;
+  gap: 4px;
+}
