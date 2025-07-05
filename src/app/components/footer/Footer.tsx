@@ -38,15 +38,10 @@ const Footer = () => {
         <Link href="https://gilles-ngassam.pisoftlite.com/" className={styles.btn} target="_blank">VOIR MON PORTFOLIO</Link>
       </div>
       <div className={styles.credentialsWrapper}>
-        <AtSymbolIcon width={24} color='white' />
-        <span>Copyrights 2025. Designed and developed by</span>
-        <Link href="https://gilles-ngassam.pisoftlite.com/" className={styles.btn} target="_blank">
-          Gilles NGASSAM
-        </Link>
-        <LinkIcon width={16} />
+        @Copyrights 2025. Designed and developed by Gilles NGASSAM
       </div>
     </div>
   );
 }
- 
+
 export default Footer;
