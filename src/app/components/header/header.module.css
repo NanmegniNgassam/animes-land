@@ -10,7 +10,7 @@
 .headerContainer::after {
   content: "";
   position: absolute;
-  bottom: -12px;
+  bottom: 0;
   right: 40px;
   width: 10%;
   height: 12px;

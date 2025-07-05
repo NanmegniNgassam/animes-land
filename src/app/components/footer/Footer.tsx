@@ -31,9 +31,9 @@ const Footer = () => {
       <div className={styles.referencesWrapper}>
         <p>
           <span>Thanks to </span>
-          <Link href="https://jikan.moe/">Jikan API</Link>
+          <Link href="https://jikan.moe/" target="_blank">Jikan API</Link>
           <span> and </span> 
-          <Link href="https://vercel.com/home">Vercel (NextJs)</Link>
+          <Link href="https://vercel.com/home" target="_blank">Vercel (NextJs)</Link>
         </p>
         <Link href="https://gilles-ngassam.pisoftlite.com/" className={styles.btn} target="_blank">VOIR MON PORTFOLIO</Link>
       </div>
