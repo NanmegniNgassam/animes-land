@@ -17,7 +17,7 @@ const Footer = () => {
         </Link>
         <Link href="top">
           <ArrowTrendingUpIcon width={24} />
-          <span>Top</span>
+          <span>Top animes</span>
         </Link>
         <Link href="/search">
           <MagnifyingGlassIcon width={24} />

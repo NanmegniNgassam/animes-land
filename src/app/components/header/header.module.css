@@ -21,14 +21,17 @@
 .headerContainer ul {
   list-style-type: none;
 }
-
 .headerContainer ul li {
   display: inline-block;
-  margin-inline-start: 10px;
+  margin-inline-start: 20px;
   font-size: 1.1rem;
   color: #383838;
 }
-
 .headerContainer ul li:hover {
   color: brown;
+}
+.headerContainer ul li a {
+  display: flex;
+  align-items: center;
+  gap: 4px;
 }
