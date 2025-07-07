@@ -10,7 +10,7 @@
   content: "";
   position: absolute;
   bottom: 0;
-  right: 40px;
+  right: 20px;
   width: 10%;
   height: 12px;
   background-color: brown;
@@ -46,7 +46,7 @@
   display: none;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .headerContainer {
     padding: 10px 20px;
     flex-direction: column;
