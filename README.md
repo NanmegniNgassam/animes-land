@@ -8,7 +8,7 @@ Animes-land est un micro-projet conçu pour visualiser des animés populaires, e
 
 ## 🚀 Demo
 
-👉 [Lien vers le site déployé](https://animes-land.gilles-ngassam.com)
+👉 [Lien vers le site déployé](https://animes-land.vercel.app/)
 
 
 ## ✨ Fonctionnalités principales
