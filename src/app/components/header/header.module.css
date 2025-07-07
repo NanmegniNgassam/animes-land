@@ -53,7 +53,7 @@
     align-items: stretch;
   }
   .headerContainer::after {
-    width: 40%;
+    width: 30%;
   }
 
   .headerContainer .burgerContainer {

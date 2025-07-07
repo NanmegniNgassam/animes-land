@@ -30,7 +30,7 @@
 .footerContainer .linksWrapper {
   display: flex;
   list-style-type: none;
-  gap: 120px;
+  gap: 60px;
   width: fit-content;
   margin: 0 auto;
 }
@@ -63,14 +63,22 @@
   justify-content: center;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 780px) {
   .footerContainer {
     padding: 44px 20px;
+    text-align: center;
   }
   .footerContainer::before {
-    width: 40%;
+    width: 30%;
   }
   .footerContainer::after {
-    width: 40%;
+    width: 30%;
+  }
+
+  .footerContainer .linksWrapper {
+    flex-direction: column;
+    align-items: start;
+    margin: 0;
+    gap: 20px;
   }
 }
