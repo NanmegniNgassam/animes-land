@@ -37,8 +37,11 @@ main {
   html {
     color-scheme: dark;
   }
+}
 
+@media screen and (max-width: 780px) {
   main {
     padding: 0 20px;
   }
+  
 }
