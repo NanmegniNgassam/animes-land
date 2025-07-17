@@ -6,10 +6,29 @@ import styles from './header.module.css'
 import { ArrowTrendingUpIcon, AtSymbolIcon, HomeIcon, MagnifyingGlassIcon } from "@heroicons/react/24/outline";
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const Header = () => {
-  const [isMenuOpen, setMenuOpen] = useState<boolean>(true);
+  const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
+  
+
+  useEffect(() => {
+    // Update the menu state based on window width
+    const handleResize = () => {
+      setMenuOpen(window.innerWidth >= 780);
+    };
+
+    // Initialization
+    handleResize();
+
+    // Add event listener
+    window.addEventListener("resize", handleResize);
+
+    // Cleanup
+    return () => {
+      window.removeEventListener("resize", handleResize);
+    };
+  }, []);
 
   const toggleMenu = () => setMenuOpen(!isMenuOpen);
 
@@ -17,7 +36,7 @@ const Header = () => {
     <nav className={styles.headerContainer}>
       <div className={styles.headerTitle}>
         <Link href="/">
-          <Image  src={logo} alt="Community banner and clan emblem" quality={80} width={140} placeholder="blur" />
+          <Image  src={logo} alt="Community banner and clan emblem" quality={80} width={100} placeholder="blur" />
         </Link>
         <div className={styles.burgerContainer}>
           {
