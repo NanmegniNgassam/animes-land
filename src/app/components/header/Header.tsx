@@ -17,7 +17,7 @@ const Header = () => {
     <nav className={styles.headerContainer}>
       <div className={styles.headerTitle}>
         <Link href="/">
-          <Image  src={logo} alt="Community banner and clan emblem" quality={80} width={100} placeholder="blur" />
+          <Image  src={logo} alt="Community banner and clan emblem" quality={80} width={140} placeholder="blur" />
         </Link>
         <div className={styles.burgerContainer}>
           {
