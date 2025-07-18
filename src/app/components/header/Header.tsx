@@ -7,10 +7,15 @@ import { ArrowTrendingUpIcon, AtSymbolIcon, HomeIcon, MagnifyingGlassIcon } from
 import { SparklesIcon } from "@heroicons/react/24/solid";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { useEffect, useState } from "react";
+import { usePathname } from "next/navigation";
 
 const Header = () => {
   const [isMenuOpen, setMenuOpen] = useState<boolean>(false);
-  
+  const path = usePathname();
+
+  const isLinkActive = (link: string) => {
+    return path === link;
+  } 
 
   useEffect(() => {
     // Update the menu state based on window width
@@ -50,31 +55,31 @@ const Header = () => {
         isMenuOpen && (
           <ul>
             <li>
-              <Link href="/">
+              <Link href="/" className={isLinkActive('/') ? styles.active : ''}>
                 <HomeIcon width={24} />
                 <span>Home</span>
               </Link>
             </li>
             <li>
-              <Link href="/animes">
+              <Link href="/animes" className={isLinkActive('/animes') ? styles.active : ''}>
                 <SparklesIcon width={24} />
                 <span>Animes</span>
               </Link>
             </li>
             <li>
-              <Link href="/top">
+              <Link href="/top" className={isLinkActive('/top') ? styles.active : ''}>
                 <ArrowTrendingUpIcon width={24} />
                 <span>Top animes</span>
               </Link>
             </li>
             <li>
-              <Link href="/search">
+              <Link href="/search" className={isLinkActive('/search') ? styles.active : ''}>
                 <MagnifyingGlassIcon width={24} />
                 <span>Search</span>
               </Link>
             </li>
             <li>
-              <Link href="/about">
+              <Link href="/about" className={isLinkActive('/about') ? styles.active : ''}>
                 <AtSymbolIcon width={24} />
                 <span>About</span>
               </Link>

@@ -41,6 +41,10 @@
   gap: 4px;
   transition: 0.2s ease-in-out;
 }
+.headerContainer ul li .active {
+  color: brown;
+  cursor: default;
+}
 
 .headerContainer .burgerContainer {
   display: none;
