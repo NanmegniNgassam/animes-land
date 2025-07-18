@@ -5,6 +5,7 @@ import logo from './assets/animes-land_logo.png'
 import naruto from './assets/naruto.jpg'
 import onePiece from './assets/one_piece.jpg'
 import tokyoRevengers from './assets/tokyo_revengers.jpg'
+import AnimeCard from "./components/animeCard/AnimeCard"
 
 
 export const metadata: Metadata = {
@@ -32,6 +33,14 @@ export default function Home() {
           <Image src={naruto} alt="Couverture de l'animé Naruto" quality={100}  className={styles.pillWrapper} placeholder="blur" />
           <Image src={tokyoRevengers} alt="Couverture de l'animé Tokyo Revengers" quality={100}  className={styles.pillWrapper} placeholder="blur" />
         </div>
+      </div>
+      <div className={styles.animesContainer}>
+        <AnimeCard />
+        <AnimeCard />
+        <AnimeCard />
+        <AnimeCard />
+        <AnimeCard />
+        <AnimeCard />
       </div>
     </main>
   )
