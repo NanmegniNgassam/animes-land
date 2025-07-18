@@ -1,5 +1,10 @@
 .animeCardWrapper {
-  border: 1px solid brown;
+  border: 2px solid brown;
+  border-radius: 5px;
   min-width: 350px;
+  max-width: 500px;
   min-height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
