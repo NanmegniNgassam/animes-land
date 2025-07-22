@@ -59,6 +59,9 @@
   .headerContainer::after {
     width: 30%;
   }
+  .largeScreenLinks {
+    display: none;
+  }
 
   .headerContainer .burgerContainer {
     display: block;
