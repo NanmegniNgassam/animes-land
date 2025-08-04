@@ -38,9 +38,6 @@ export default function Home() {
         <AnimeCard />
         <AnimeCard />
         <AnimeCard />
-        <AnimeCard />
-        <AnimeCard />
-        <AnimeCard />
       </div>
     </main>
   )
