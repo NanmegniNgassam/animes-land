@@ -66,8 +66,21 @@
   transform: scale(1.15);
 }
 
-.animesContainer {
+.section {
   margin: 100px auto;
+}
+.section .title {
+  margin: 50px 0;
+  padding: 0 15px;
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  border-left-width: 10px;
+  border-left-style: solid;
+  border-left-color: brown ;
+}
+
+.animesContainer {
   display: grid;
   grid-auto-flow: row;
   justify-content: space-between;

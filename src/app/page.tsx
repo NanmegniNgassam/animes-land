@@ -34,11 +34,15 @@ export default function Home() {
           <Image src={tokyoRevengers} alt="Couverture de l'animé Tokyo Revengers" quality={100}  className={styles.pillWrapper} placeholder="blur" />
         </div>
       </div>
-      <div className={styles.animesContainer}>
-        <AnimeCard />
-        <AnimeCard />
-        <AnimeCard />
+      <div className={styles.section}>
+        <h2 className={styles.title}>Animés en vogue</h2>
+        <div className={styles.animesContainer}>
+          <AnimeCard />
+          <AnimeCard />
+          <AnimeCard />
+        </div>
       </div>
+      
     </main>
   )
 }
