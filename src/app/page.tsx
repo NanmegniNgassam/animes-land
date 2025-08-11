@@ -1,12 +1,10 @@
 import { Metadata } from "next"
-import styles from "./page.module.css"
 import Image from "next/image"
-import logo from './assets/animes-land_logo.png'
 import naruto from './assets/naruto.jpg'
 import onePiece from './assets/one_piece.jpg'
 import tokyoRevengers from './assets/tokyo_revengers.jpg'
-import AnimeCard from "./components/animeCard/AnimeCard"
 import AnimesList from "./components/animesList/page"
+import styles from "./page.module.css"
 
 
 export const metadata: Metadata = {

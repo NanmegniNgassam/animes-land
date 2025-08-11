@@ -1,27 +1,19 @@
-'use client'
-import { useEffect } from 'react';
-import styles from './animeCard.module.css'
 import { Anime } from '@/app/models/anime';
+import Image from 'next/image';
+import styles from './animeCard.module.css';
 
+interface IAnimeCard {
+  anime: Anime
+}
 
-
-const AnimeCard = () => {
-  useEffect(() => {
-    const getAnime = async () => {
-      const response = await fetch('https://api.jikan.moe/v4/anime/52990');
-      const jsonResponse: { data: Anime } = await response.json();
-
-      const anime = jsonResponse.data;
-      console.log('Fetched anime : ', anime);
-    };
-
-    getAnime();
-  }, [])
-
+const AnimeCard = ({anime}: IAnimeCard) => {
   return (
-    <div className={styles.animeCardWrapper}>
-      AnimeCard
-    </div>
+    anime && (
+      <div className={styles.animeCardWrapper}>
+        <Image src={anime.images.jpg.image_url} alt={anime.title} width={200} height={100}  />
+        <h4> {anime.title} </h4>
+      </div>
+    )  
   );
 }
  
