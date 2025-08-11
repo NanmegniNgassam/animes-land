@@ -3,6 +3,10 @@ export interface Anime {
   url: string;
   approved: boolean;
   titles: {type: string; title: string}[];
+  images: {
+    jpg: { image_url: string; large_image_url: string; small_image_url: string; },
+    jpeg: { image_url: string; large_image_url: string; small_image_url: string; },
+  };
   title: string;
   type: string | "TV";
   source: string;
