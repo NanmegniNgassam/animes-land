@@ -6,11 +6,14 @@ interface IAnimeCard {
   anime: Anime
 }
 
-const AnimeCard = ({anime}: IAnimeCard) => {
+const AnimeCard = ({ anime }: IAnimeCard) => {
   return (
     anime && (
       <div className={styles.animeCardWrapper}>
-        <Image src={anime.images.jpg.image_url} alt={anime.title} width={200} height={100}  />
+        <div style={{ position: 'relative', width: '100%', height: '50%' }}>
+          <Image src={anime.images.jpg.large_image_url} alt={anime.title} fill style={{ objectFit: 'contain' }} />
+        </div>
+        
         <h4> {anime.title} </h4>
       </div>
     )  
