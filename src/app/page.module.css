@@ -80,14 +80,6 @@
   border-left-color: brown ;
 }
 
-.animesContainer {
-  display: grid;
-  grid-auto-flow: row;
-  justify-content: space-between;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 90px;
-}
-
 @media screen and (max-width: 780px) {
   .heroSection {
     width: 100%;
@@ -98,13 +90,6 @@
   .heroSection .paragraph {
     text-indent: 0;
     text-align: center;
-  }
-
-  .animesContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 45px;
   }
 }
 

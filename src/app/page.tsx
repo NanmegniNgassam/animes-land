@@ -6,6 +6,7 @@ import naruto from './assets/naruto.jpg'
 import onePiece from './assets/one_piece.jpg'
 import tokyoRevengers from './assets/tokyo_revengers.jpg'
 import AnimeCard from "./components/animeCard/AnimeCard"
+import AnimesList from "./components/animesList/page"
 
 
 export const metadata: Metadata = {
@@ -36,11 +37,7 @@ export default function Home() {
       </div>
       <div className={styles.section}>
         <h2 className={styles.title}>Animés en vogue</h2>
-        <div className={styles.animesContainer}>
-          <AnimeCard />
-          <AnimeCard />
-          <AnimeCard />
-        </div>
+        <AnimesList />
       </div>
       
     </main>

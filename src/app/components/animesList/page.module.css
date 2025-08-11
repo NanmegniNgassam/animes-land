@@ -1,0 +1,16 @@
+.animesContainer {
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: space-between;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 90px;
+}
+
+@media screen and (max-width: 780px) {
+  .animesContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 45px;
+  }
+}
