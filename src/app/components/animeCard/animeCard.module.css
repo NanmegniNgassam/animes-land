@@ -13,12 +13,13 @@
   height: 100%;
 }
 .animeCardWrapper .content {
-  padding: 5px;
+  padding: 5px 10px;
   flex: 2;
 }
 
 .animeCardWrapper .content .title {
   line-clamp: 1;
+  margin-bottom: 10px;
 }
 
 .themesContainer {

@@ -9,7 +9,7 @@ const AnimesList = () => {
 
   useEffect(() => {
     const getAnimes = async() => {
-      const animeIds = [52990, 52991, 52992, 52993];
+      const animeIds = [52990, 52991, 52992, 11757];
       const promises = animeIds.map(id => 
         fetch(`https://api.jikan.moe/v4/anime/${id}`).then(res => res.json())
       );

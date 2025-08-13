@@ -18,6 +18,7 @@ const AnimeCard = ({ anime }: IAnimeCard) => {
 
         <div className={styles.content}> 
           <h4 className={styles.title}> {anime.title} </h4>
+          <p> { anime.episodes } épisodes </p>
           <div className={styles.themesContainer}>
             {themes.slice(0,3).map((theme, index) => (
               <p className={styles.themeWrapper} key={index}> { theme.name } </p>
