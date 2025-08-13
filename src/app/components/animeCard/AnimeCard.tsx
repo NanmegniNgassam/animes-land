@@ -10,11 +10,13 @@ const AnimeCard = ({ anime }: IAnimeCard) => {
   return (
     anime && (
       <div className={styles.animeCardWrapper}>
-        <div style={{ position: 'relative', width: '100%', height: '50%' }}>
-          <Image src={anime.images.jpg.large_image_url} alt={anime.title} fill style={{ objectFit: 'contain' }} />
+        <div className={styles.imageContainer}>
+          <Image src={anime.images.jpg.large_image_url} alt={anime.title} fill style={{ objectFit: 'cover' }} />
+        </div>
+        <div className={styles.content}> 
+          <h4> {anime.title} </h4>
         </div>
         
-        <h4> {anime.title} </h4>
       </div>
     )  
   );

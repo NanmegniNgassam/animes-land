@@ -1,11 +1,18 @@
 .animeCardWrapper {
   border: 2px solid brown;
-  padding: 20px;
   border-radius: 5px;
   min-width: 350px;
   width: 100%;
   max-width: 500px;
-  min-height: 500px;
+  min-height: 200px;
   display: flex;
-  flex-direction: column;
+}
+.animeCardWrapper .imageContainer {
+  position: relative;
+  flex: 1;
+  height: 100%;
+}
+.animeCardWrapper .content {
+  padding: 5px;
+  flex: 2;
 }
